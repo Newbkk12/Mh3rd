@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>เลือกชุดเกราะ Monster Hunter 3rd PSP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<header class="main-header">
+    <div class="header-content">
+        <div class="logo">Monster Hunter 3rd PSP</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="home.html">หน้าแรก</a></li>
+                <li><a href="weapon.html">อาวุธ</a></li>
+                <li><a href="armor.html" class="active">ชุดเกราะ</a></li>
+                <li><a href="monster.html">มอนสเตอร์</a></li>
+                <li><a href="quest.html">เควส</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <h1>เลือกชุดเกราะ</h1>
+        <div id="armorSelectGrid" class="armor-select-grid"></div>
+        <div id="armorResult" class="result" style="display:none;"></div>
+    </div>
+    <script src="armorSelectGrid.js"></script>
+</body>
+</html>
